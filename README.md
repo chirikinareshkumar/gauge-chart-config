@@ -1,4 +1,5 @@
 **About App**
+
 This app is about creating an dynamic Guage Chart by taking input from an UI. Guage chart will be an custom control of SAP UI5. This is at the start stage and will be developed continuously to make it better.
 
 ## Application Details

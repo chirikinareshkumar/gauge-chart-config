@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="com.nkch.chart.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:g="com.nkch.chart.model"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+                        <VBox class="chartPosition">
+                            <Label value="Chart Properties"></Label>
+                            <Input></Input>
+                            <g:guageControl id="gauge_chart"></g:guageControl>
+                        </VBox>
+                    </content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
